@@ -2,7 +2,7 @@
 import warnings
 from django.db.models import fields, ImageField
 from django.db.models.fields import related
-from django.utils.six import with_metaclass
+from six import with_metaclass
 
 import autofixture
 from autofixture import constraints, generators, signals
